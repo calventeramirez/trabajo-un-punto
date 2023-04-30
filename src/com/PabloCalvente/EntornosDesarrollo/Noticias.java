@@ -58,6 +58,16 @@ public class Noticias {
 	}
 
 	/**
+	 * Devuelve la posicion de la noticia que se esta buscando
+	 * 
+	 * @param noticias noticia a buscar el indice
+	 * @return posicion del comentario o -1 si no lo encuentra
+	 */
+	public int buscarNoticas(String noticias) {
+		return noticias.indexOf(noticias);
+	}
+
+	/**
 	 * Representacion del objeto noticias
 	 */
 	@Override
