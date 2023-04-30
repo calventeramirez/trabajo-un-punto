@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.PabloCalvente.EntornosDesarrollo","l":"Noticias"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.PabloCalvente.EntornosDesarrollo","l":"Comentarios"},{"p":"com.PabloCalvente.EntornosDesarrollo","l":"Noticias"},{"p":"com.PabloCalvente.EntornosDesarrollo","l":"Usuario"}];updateSearchResults();
