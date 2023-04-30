@@ -87,23 +87,28 @@ public class Usuario {
 	 * Agrega una Noticia nueva
 	 * 
 	 * @param noticia noticia a la que se va a añadir
+	 * @return String diciendo si esta añadida o no la noticia
 	 */
-	public void agregarNoticias(String noticia) {
-		not.setNoticias(noticia);
-		System.out.println("Añadida noticia");
+	public String agregarNoticias(String noticia) {
+		if (not.setNoticias(noticia)) {
+			return "Añadida noticia";
+		}
+		return "Noticia no añadida";
+
 	}
 
 	/**
 	 * Borra la noticia que queramos
 	 * 
 	 * @param noticia la noticia a borrar
+	 * @return si ha podido borrar la noticia o no se ha podido
 	 */
-	public void borrarNoticias(String noticia) {
+	public String borrarNoticias(String noticia) {
 		if (not.buscarNoticas(noticia) != -1) {
 			not.borrarNoticia(not.buscarNoticas(noticia));
-			System.out.println("Borrado el comentario seleccionado");
+			return "Borrada la noticia seleccionada";
 		} else {
-			System.out.println("No se puede borrar un comentario que no existe");
+			return "No se puede borrar una noticia que no existe";
 		}
 	}
 }

@@ -58,9 +58,10 @@ public class Comentarios {
 	 * Añade un comentario nuevo a la lista de comentarios
 	 * 
 	 * @param comentarioNuevo comentario a añadir en la lista
+	 * @return devuelve verdadero o falso al intentar añadir el comentario
 	 */
-	public void setComentario(String comentarioNuevo) {
-		this.comentario.add(comentarioNuevo);
+	public boolean setComentario(String comentarioNuevo) {
+		return this.comentario.add(comentarioNuevo);
 	}
 
 	/**

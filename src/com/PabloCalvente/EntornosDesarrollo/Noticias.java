@@ -44,8 +44,8 @@ public class Noticias {
 	 * 
 	 * @param n la noticia que se va a añadir
 	 */
-	public void setNoticias(String n) {
-		this.noticias.add(n);
+	public boolean setNoticias(String n) {
+		return this.noticias.add(n);
 	}
 
 	/**
@@ -64,7 +64,7 @@ public class Noticias {
 	 * @return posicion del comentario o -1 si no lo encuentra
 	 */
 	public int buscarNoticas(String noticias) {
-		return noticias.indexOf(noticias);
+		return this.noticias.indexOf(noticias);
 	}
 
 	/**

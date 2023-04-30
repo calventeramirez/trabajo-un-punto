@@ -14,5 +14,6 @@ public class testMain {
 		c1.setComentario("comentario 2");
 		c1.setComentario("comentario 3");
 		System.out.println(c1.getComentario());
+		System.out.println(u1.borrarNoticias("ksdfjkasdhfjk"));
 	}
 }
