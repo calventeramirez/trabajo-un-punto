@@ -37,6 +37,15 @@ public class Comentarios {
 	}
 
 	/**
+	 * Constructor creado para la clase Peliculas. Crea los comentarios para las
+	 * peliculas.
+	 */
+	public Comentarios() {
+		user = null;
+		comentario = new ArrayList<>();
+	}
+
+	/**
 	 * Devuelve los comentarios de un usuario
 	 * 
 	 * @return la lista de comentarios
