@@ -2,6 +2,12 @@ package com.PabloCalvente.EntornosDesarrollo;
 
 import java.util.ArrayList;
 
+/**
+ * 
+ * @author Pablo Calvente
+ * @version 1.0
+ */
+
 public class Comentarios {
 	Usuario user;
 	ArrayList<String> comentario;
